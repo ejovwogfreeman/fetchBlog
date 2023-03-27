@@ -1,0 +1,113 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px 20%;
+  font-size: 18px;
+  background-color: rgb(224, 224, 224);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0px 20px;
+  background-color: white;
+}
+
+nav h1 a {
+  background-color: none;
+  border: none;
+  outline: none;
+  font-size: 30px;
+}
+
+nav h1 a:hover {
+  color: teal;
+  background-color: white;
+}
+
+nav a {
+  text-decoration: none;
+  border: 1px solid teal;
+  color: teal;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+}
+
+nav a:hover {
+  background-color: teal;
+  color: white;
+}
+
+nav form {
+  border: 1px solid teal;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+nav form input {
+  border: none;
+  outline: none;
+}
+
+nav form button {
+  background-color: white;
+  color: teal;
+  border: 1px solid teal;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 3px;
+}
+
+#container {
+  margin-top: 10px;
+}
+#container div {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: justify;
+}
+
+#container div form {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+}
+
+#container div form input,
+#container div form textarea,
+#container div form button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid teal;
+  outline: none;
+}
+
+#container div form button {
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+
+#btn {
+  cursor: pointer;
+  padding: 10px;
+  color: white;
+  background-color: teal;
+  border: 1px solid teal;
+  border-radius: 3px;
+}
